@@ -32,7 +32,7 @@ div,td{ word-wrap: break-word;}
 
 .gridMenu{ position:absolute; left:0; top:0; width:100%; height:100%; overflow:hidden; z-index:100;}
 .gridMenu .position{ width:110%;}
-.gridMenu .logos{ position:absolute; bottom:10px;left:10px; width:290px; height:160px; background:url(../images/ico.png) 0 -200px no-repeat; z-index:1; cursor: pointer;}
+/*.gridMenu .logos{ position:absolute; bottom:10px;left:10px; width:290px; height:160px; background:url(../images/ico.png) 0 -200px no-repeat; z-index:1; cursor: pointer;}*/
 .gridMenu .logos a{ display:block; text-indent:-9999px; height:100%;}
 .gridMenu p{ padding:5px 0; margin:0;}
 
@@ -40,8 +40,8 @@ div,td{ word-wrap: break-word;}
 .gridMenu .body dl{ position:relative;float:left; width:99px; height:99px; margin: 1px 0 0 1px; background:#fafafa;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px; overflow:hidden;}
 .gridMenu .body .show{ position:absolute; z-index:10; left:0; top:100px;}
 
-.gridMenu .cells li{float:left; width:99px; height:99px; border: none; border-bottom:1px dashed #222; border-right:1px dashed #222; }
-
+.gridMenu .cells li{float:left; width:99px; height:99px; border: none; }
+/*.gridMenu .cells li{float:left; width:99px; height:99px; border: none; border-bottom:1px dashed #222; border-right:1px dashed #222; }*/
 .gridMenu .item{ position:absolute; top:-200px; width:100px; height:100px; z-index:50;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; cursor: pointer;}
 .gridMenu .item li{position:absolute;  display:none; width:100px; height:100px; cursor: pointer; background:#1FC4E0;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px; }
 .gridMenu .item li a{ display:block; height:100%; overflow:hidden;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px; font-size:0; text-indent:-9999px;}
@@ -64,7 +64,7 @@ div,td{ word-wrap: break-word;}
 .gridMenu .about-me .close{ background: url(../images/close.png) center center no-repeat #5c5c5c;}
 .gridMenu .about-me .small-thumb{ background:url(../images/ico-8.png) 0 -650px no-repeat;}
 
-.gridMenu .about-me-body .me{ float:left; width: 200px; height:200px; background:url(../images/me.png) 10px 5px no-repeat;}
+.gridMenu .about-me-body .me{ float:left; width: 200px; height:200px; background:url(../images/me.png) no-repeat; background-size: 100%;}
 .gridMenu .about-me-body .about{ float: left; width:180px; padding:0 9px;}
 .gridMenu .about-me-body p{ text-indent:25px;}
 .gridMenu .about-me-body .name{ display: inline-block; margin:15px 0 0 0; font-size:18px;}
