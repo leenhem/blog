@@ -69,7 +69,8 @@
     $(document).ready(function(){
 
         var iframeHeight = function () {
-            var _height = $(window).height();
+//          var _height = $(window).height();
+            var _height = "100%";
             $('#content').height(_height);
         }
         window.onresize = iframeHeight;
