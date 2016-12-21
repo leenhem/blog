@@ -647,7 +647,7 @@ iframe {
   border: none;
   height: 1px;
   width: 100%;
-  background: url('../img/hr1.png') no-repeat center center;
+ /* background: url('http://view.jqueryfuns.com/%E9%A2%84%E8%A7%88-/2016/1/28/565a5a887b38b2ff6f8f4587ed508646/img/hr1.png') no-repeat center center;*/
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -786,7 +786,7 @@ iframe {
   font-weight: bold;
 }
 .testimonial-content {
-  background: url('../img/bgmask2.png') no-repeat center center #08aeac;
+  background: url('../img/thumb-p1.jpg') no-repeat center center #08aeac;
   color: #ffffff;
   padding: 20px;
   border-radius: 10px;
