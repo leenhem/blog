@@ -538,6 +538,7 @@ iframe {
   list-style: none;
 }
 .main-menu-list a {
+  font-weight: bold;
   display: block;
   background: #08aeac;
   padding: 10px;
